@@ -1,20 +1,20 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.1.212/W32 for ARM                  26/Oct/2020  01:43:36
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  26/Oct/2020  15:36:06
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
-#        C:\UW_GitRepo\embsys310\assignmnet02\Assgnment02_Code\Debug\Exe\Assignment02.out
+#        C:\UW_GitRepo\embsys310\assignment02\Assgnment02_Code\Debug\Exe\Assignment02.out
 #    Map file     =
-#        C:\UW_GitRepo\embsys310\assignmnet02\Assgnment02_Code\Debug\List\Assignment02.map
+#        C:\UW_GitRepo\embsys310\assignment02\Assgnment02_Code\Debug\List\Assignment02.map
 #    Command line =
-#        -f C:\Users\navde\AppData\Local\Temp\EW3BCF.tmp
-#        (C:\UW_GitRepo\embsys310\assignmnet02\Assgnment02_Code\Debug\Obj\main.o
+#        -f C:\Users\navde\AppData\Local\Temp\EW67CC.tmp
+#        (C:\UW_GitRepo\embsys310\assignment02\Assgnment02_Code\Debug\Obj\main.o
 #        --no_out_extension -o
-#        C:\UW_GitRepo\embsys310\assignmnet02\Assgnment02_Code\Debug\Exe\Assignment02.out
+#        C:\UW_GitRepo\embsys310\assignment02\Assgnment02_Code\Debug\Exe\Assignment02.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --map
-#        C:\UW_GitRepo\embsys310\assignmnet02\Assgnment02_Code\Debug\List\Assignment02.map
+#        C:\UW_GitRepo\embsys310\assignment02\Assgnment02_Code\Debug\List\Assignment02.map
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.3\arm\config\linker\ST\stm32l475xG.icf" --semihosting --entry
 #        __iar_program_start --vfe --text_out locale)
@@ -121,7 +121,7 @@ command line/config:
     -------------------------------------------
     Total:
 
-C:\UW_GitRepo\embsys310\assignmnet02\Assgnment02_Code\Debug\Obj: [1]
+C:\UW_GitRepo\embsys310\assignment02\Assgnment02_Code\Debug\Obj: [1]
     main.o                 40                 4
     -------------------------------------------
     Total:                 40                 4
@@ -181,7 +181,7 @@ exit                     0x800'00ff   0x4  Code  Gb  exit.o [2]
 main                     0x800'007d  0x28  Code  Gb  main.o [1]
 
 
-[1] = C:\UW_GitRepo\embsys310\assignmnet02\Assgnment02_Code\Debug\Obj
+[1] = C:\UW_GitRepo\embsys310\assignment02\Assgnment02_Code\Debug\Obj
 [2] = dl7M_tln.a
 [3] = rt7M_tl.a
 [4] = shb_l.a

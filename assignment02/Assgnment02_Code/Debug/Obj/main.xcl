@@ -1,14 +1,14 @@
-"C:\UW_GitRepo\embsys310\assignmnet02\Assgnment02_Code\main.c"
+"C:\UW_GitRepo\embsys310\assignment02\Assgnment02_Code\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\UW_GitRepo\embsys310\assignmnet02\Assgnment02_Code\Debug\Obj\main.pbi.dep
+C:\UW_GitRepo\embsys310\assignment02\Assgnment02_Code\Debug\Obj\main.pbi.dep
 -o
 main.pbi
 -I
-C:\UW_GitRepo\embsys310\assignmnet02\Assgnment02_Code
+C:\UW_GitRepo\embsys310\assignment02\Assgnment02_Code
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
