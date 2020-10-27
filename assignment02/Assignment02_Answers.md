@@ -21,5 +21,5 @@
 **6.b** The memory location of "counter" is 0x20000000. In the code, *p_int is pointing to address 0x20000000. When the code steps through, the pointer gets the value at address 0x20000000, then adds to that value and then stores that value at address 0x20000000. This process takes place 3 times which results the value to be 3 at address 0x20000000. Finally, variable "counter" (@ 0x20000000) increments once which gives us a final value of 4. <br/><br/>
 
 **7.a** Address of "counter" is 0x20000000. <br/>
-**7.b** The "counter" is stored in ROM. <br/>
+**7.b** The "counter" is stored in RAM. <br/>
 **7.c** The value of "counter" at the end of program is 4.
