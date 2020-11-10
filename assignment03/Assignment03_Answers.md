@@ -1,5 +1,5 @@
 #### Assignment 3 Answers
-**3.a** International Morse code is a representation of English alphabet and numbers marks by arrangement of dots, dashes and spaces. <br/>
+**3.a** International Morse code is a representation of English alphabet and numbers by arrangement of dots, dashes and spaces. <br/>
 Example : embsys 310 <br/>
 e: **.** <br/>
 m: **--** <br/>
