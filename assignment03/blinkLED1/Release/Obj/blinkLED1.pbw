@@ -1,0 +1,240 @@
+[
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "13",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@721@F@main@delay_counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "delay_counter",
+    "location": {
+      "column": "18",
+      "line": "15",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\main.c"
+    },
+    "name": "delay_counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@693@macro@SYS_DEFINES_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYS_DEFINES_H",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "SYS_DEFINES_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@718@macro@RCC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_BASE",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "RCC_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@762@macro@RCC_ABH2ENR_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_ABH2ENR_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "RCC_ABH2ENR_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@800@macro@RCC_ABH2ENR_GPIOA_EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_ABH2ENR_GPIOA_EN",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "RCC_ABH2ENR_GPIOA_EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@838@macro@RCC_ABH2ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_ABH2ENR",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "RCC_ABH2ENR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@923@macro@GPIOA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_BASE",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "GPIOA_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@969@macro@GPIOA_MODER_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "GPIOA_MODER_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1007@macro@GPIOA_MODER_RESET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER_RESET",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "GPIOA_MODER_RESET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1051@macro@GPIOA_MODER_PIN5_BIT10",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER_PIN5_BIT10",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "GPIOA_MODER_PIN5_BIT10",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1092@macro@GPIOA_MODER_PIN5_BIT11",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER_PIN5_BIT11",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "GPIOA_MODER_PIN5_BIT11",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1133@macro@GPIOA_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "GPIOA_MODER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1218@macro@GPIOA_ODR_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ODR_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "GPIOA_ODR_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1256@macro@GPIOA_ORD_PIN5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ORD_PIN5",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "GPIOA_ORD_PIN5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1296@macro@GPIOA_ORD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ORD",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "GPIOA_ORD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1381@macro@DELAY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DELAY",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\blinkLED1\\sysDefines.h"
+    },
+    "name": "DELAY",
+    "origin": "user_include",
+    "scope": null
+  }
+]

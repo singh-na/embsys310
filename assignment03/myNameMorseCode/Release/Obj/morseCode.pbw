@@ -1,0 +1,730 @@
+[
+  {
+    "ID": "c:@g_MyNameMorseCode",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "g_MyNameMorseCode",
+    "location": {
+      "column": "11",
+      "line": "15",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\main.c"
+    },
+    "name": "g_MyNameMorseCode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "17",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@968@F@main@morse_delay",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "morse_delay",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\main.c"
+    },
+    "name": "morse_delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@994@F@main@delay_counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "delay_counter",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\main.c"
+    },
+    "name": "delay_counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1022@F@main@morse_code_arr_size",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "morse_code_arr_size",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\main.c"
+    },
+    "name": "morse_code_arr_size",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@800@macro@SYS_DEFINES_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYS_DEFINES_H",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "SYS_DEFINES_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@825@macro@RCC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_BASE",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "RCC_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@869@macro@RCC_ABH2ENR_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_ABH2ENR_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "RCC_ABH2ENR_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@907@macro@RCC_ABH2ENR_GPIOA_EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_ABH2ENR_GPIOA_EN",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "RCC_ABH2ENR_GPIOA_EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@945@macro@RCC_ABH2ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_ABH2ENR",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "RCC_ABH2ENR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1030@macro@GPIOA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_BASE",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "GPIOA_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1076@macro@GPIOA_MODER_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "GPIOA_MODER_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1114@macro@GPIOA_MODER_RESET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER_RESET",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "GPIOA_MODER_RESET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1158@macro@GPIOA_MODER_PIN5_BIT10",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER_PIN5_BIT10",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "GPIOA_MODER_PIN5_BIT10",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1199@macro@GPIOA_MODER_PIN5_BIT11",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER_PIN5_BIT11",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "GPIOA_MODER_PIN5_BIT11",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1240@macro@GPIOA_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "GPIOA_MODER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1325@macro@GPIOA_ODR_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ODR_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "GPIOA_ODR_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1363@macro@GPIOA_ORD_PIN5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ORD_PIN5",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "GPIOA_ORD_PIN5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1403@macro@GPIOA_ORD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ORD",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "GPIOA_ORD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1525@macro@DOT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DOT",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "DOT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1549@macro@DASH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DASH",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "DASH",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1588@macro@SP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SP",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "SP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1654@macro@SP_LTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SP_LTR",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "SP_LTR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1681@macro@SP_WORD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SP_WORD",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "SP_WORD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1747@macro@FIRST_NAME",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FIRST_NAME",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "FIRST_NAME",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1849@macro@LAST_NAME",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LAST_NAME",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "LAST_NAME",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1952@macro@A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "A",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@1985@macro@B",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "B",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "B",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2040@macro@C",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "C",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "C",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2096@macro@D",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "D",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "D",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2140@macro@E",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "E",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "E",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2161@macro@F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "F",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2216@macro@G",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "G",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "G",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2261@macro@H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "H",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2315@macro@I",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "I",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2347@macro@J",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "J",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "J",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2404@macro@K",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "K",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "K",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2449@macro@L",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "L",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "L",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2504@macro@M",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "M",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "M",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2538@macro@N",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "N",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "N",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2571@macro@O",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "O",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "O",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2617@macro@P",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "P",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "P",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2673@macro@Q",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Q",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "Q",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2730@macro@R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "R",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2774@macro@S",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "S",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "S",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2817@macro@T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "T",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "T",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2839@macro@U",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "U",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "U",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2883@macro@V",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "V",
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "V",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2938@macro@W",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "W",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "W",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@2983@macro@X",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "X",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "X",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@3039@macro@Y",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Y",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "Y",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sysDefines.h@3096@macro@Z",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Z",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "C:\\UW_GitRepo\\embsys310\\assignment03\\myNameMorseCode\\sysDefines.h"
+    },
+    "name": "Z",
+    "origin": "user_include",
+    "scope": null
+  }
+]
