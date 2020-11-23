@@ -1,5 +1,5 @@
 ## Assignment 4 Answers
-###1.a
+### 1.a
 //Enable GPIO port A clock <br/>
 **MOVS R0 , #1** //Move value of 1 to R0,<br/>
 **LDR.N R1 , [PC,#0x28]** //Take the value of PC, offset 0x28 plus 0x4, gives you the address. Load (Narrow instruction) the value at this address to R1<br/>
@@ -10,7 +10,8 @@
 **MOVS.W R1 , #1207959552** //Move(Wide instruction) the value of 1207959552 to R1<br/>
 **STR R0 , [R1]** //store value of R0 to address of R1
 <br/>
-###1.b
+
+### 1.b
 **LDR.N R0 , [PC,#0x20]** //Value of PC, add 0x20, add 0x4, gives us the address.Load (Narrow instruction) the value of this address to R0 <br/>
 **LDR R1 , [R0]** //Get R0 value, this is an address, load this address value to R1<br/>
 **EORS.W R1 , R1 , #32** //Exclusive OR (Wide instruction) R1 and value 32, then store the result in R1<br/>
