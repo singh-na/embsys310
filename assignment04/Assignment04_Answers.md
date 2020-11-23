@@ -28,6 +28,6 @@ Before calling "func1" the compiler pushed R7 and LR to stack for later use in t
 Inside "func1" the compiler pusshed R4 to stack, in order to use R4 later in code. Also, loaded R4 with the value of stack address with an offset of 0x4. Then, the compiler pushes the R4-R6 values to stack in order to preserve their value for later use. Then, moved the value of R0 to R4, then loaded R5 with the value of SP address with an offset of 0xC.
 ###2.d
 When "func1" is called, LR stores the address when BL is used by the compiler. I am not sure why this address is an offset of 0x1 byte.
-<img src="https://github.com/singh-na/images/blob/main/embsys310/assignment01/Issue_Q2d.PNG?raw=true" width="200" alt="Assignment 4 Issue" title="Assignment 4 Issue" /> 
+<img src="https://github.com/singh-na/images/blob/main/embsys310/assignment04/Issue_Q2d.PNG?raw=true" width="200" alt="Assignment 4 Issue" title="Assignment 4 Issue" /> 
 I am not sure why the compiler didn't use R12 register as part of the addition of 5 arguments.
 ###3.a
