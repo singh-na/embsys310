@@ -16,18 +16,19 @@
 **EORS.W R1 , R1 , #32** //Exclusive OR (Wide instruction) R1 and value 32, then store the result in R1<br/>
 **STR R1 , [R0]** ///store value of R1 to address of R0
 <br/><br/>
-###2.a
+### 2.a
 Initially when calling the "func2" in main function, the compiler Branch with Link (BL) to call "func2" and updates the Link Register (LR) with the address that will come after finishing up with "func2". When getting to "func2" the compiler pushes the LR and R7 to stack and decrements SP. The compiler recognizes that the function that is about to be executed has multiple arguments and also realizes that it may have to store some of these values to stack for later use. The compiler moves the values of called function to registers R0-R3 and one of the values to SP in order to reuse one of the scratch registers.
 
 Next, "func2" uses Branch with Link (BL) to call "func1" and update the Link Register (LR) with the address that will come after the "func1" is finished. This gives the processor a point of return to continue the program after finishing "func1".
 
 Now "func1" needs to get the values that are stored on stack and scratch registers R0-R3. Compiler pushes R4 to stack, then loads R4 with the value of stack address with an offset of 0x4.
-###2.b
+### 2.b
 Before calling "func1" the compiler pushed R7 and LR to stack for later use in the code. Then, the compiler moved the "func1" arguments to scratch registers. Fifth argument of the "func1" is pushed to R0 and then to stack. Then the remaining arguments are pushed to R0-R3. Finally, branching to "func1" in memory.
-###2.c
+### 2.c
 Inside "func1" the compiler pusshed R4 to stack, in order to use R4 later in code. Also, loaded R4 with the value of stack address with an offset of 0x4. Then, the compiler pushes the R4-R6 values to stack in order to preserve their value for later use. Then, moved the value of R0 to R4, then loaded R5 with the value of SP address with an offset of 0xC.
-###2.d
+### 2.d
 When "func1" is called, LR stores the address when BL is used by the compiler. I am not sure why this address is an offset of 0x1 byte.
-<img src="https://github.com/singh-na/images/blob/main/embsys310/assignment04/Issue_Q2d.PNG?raw=true" width="200" alt="Assignment 4 Issue" title="Assignment 4 Issue" /> 
+<img src="https://github.com/singh-na/images/blob/main/embsys310/assignment04/Issue_Q2d.PNG?raw=true" width="200" alt="Assignment 4 Issue" title="Assignment 4 Issue" />
+
 I am not sure why the compiler didn't use R12 register as part of the addition of 5 arguments.
-###3.a
+### 3.a
