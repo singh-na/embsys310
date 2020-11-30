@@ -1,5 +1,5 @@
 ## Assignment 4 Answers
-### 1.a
+### 1.a Assembly for writing to RCC_AHB2ENR - Bit Banding
 //Enable GPIO port A clock <br/>
 **MOVS R0 , #1** //Move value of 1 to R0,<br/>
 **LDR.N R1 , [PC,#0x28]** //Take the value of PC, offset 0x28 plus 0x4, gives you the address. Load (Narrow instruction) the value at this address to R1<br/>
@@ -11,11 +11,10 @@
 **STR R0 , [R1]** //store value of R0 to address of R1
 <br/>
 
-### 1.b
-**LDR.N R0 , [PC,#0x20]** //Value of PC, add 0x20, add 0x4, gives us the address.Load (Narrow instruction) the value of this address to R0 <br/>
-**LDR R1 , [R0]** //Get R0 value, this is an address, load this address value to R1<br/>
-**EORS.W R1 , R1 , #32** //Exclusive OR (Wide instruction) R1 and value 32, then store the result in R1<br/>
-**STR R1 , [R0]** ///store value of R1 to address of R0
+### 1.b Assembly Instruction without Bit-Banding
+**MOVS R0 , #1** //Moves value of 1 to R0<br/>
+**LDR.N R1 , [PC , #0x28]** //Loads (narrow instruction) value of address in PC with an offset of 0x28 plus 4.<br/>
+**STR R0 , [R1]** ///store value of R0 to address of R1
 <br/><br/>
 ### 2.a
 Initially when calling the "func2" in main function, the compiler Branch with Link (BL) to call "func2" and updates the Link Register (LR) with the address that will come after finishing up with "func2". When getting to "func2" the compiler pushes the LR and R7 to stack and decrements SP. The compiler recognizes that the function that is about to be executed has multiple arguments and also realizes that it may have to store some of these values to stack for later use. The compiler moves the values of called function to registers R0-R3 and one of the values to SP in order to reuse one of the scratch registers.
@@ -30,3 +29,8 @@ Inside "func1" the compiler pusshed R4 to stack, in order to use R4 later in cod
 ### 2.d
 I am not sure why the compiler didn't use R12 register as part of the addition of 5 arguments.
 ### 3.a
+I focused this code to use less flash memory and also focused on using pointers. Not sure if push() and pop() functions are supposed to have a return variable but I assumed that they can not have a return value which would have made testing a bit easier and broad.<br> Alternatively, I could have created a global integer array along with a global integer variable to track the position of stack.
+### 3.b
+- Initially, test to make sure the stack is empty before pushing anything on the stack.
+- Push elements to fill the stack completely and make sure the stack full flag is returned correctly.
+- Pop elements to empty the stack completely and make sure the stack empty flag is returned correctly.

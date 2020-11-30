@@ -17,6 +17,8 @@ int main()
     
     RCC_ABH2ENR_BB = RCC_ABH2ENR_GPIOA_EN;      //Enable GPIOA Clock using Bit-Banding
     
+    //RCC_ABH2ENR = RCC_ABH2ENR_GPIOA_EN;    //without Bit-Banding
+    
     //Set bit 10 and unset bit 11; to set LED1 pin to output mode
     GPIOA_MODER = (GPIOA_MODER_RESET | GPIOA_MODER_PIN5_BIT10) & (~GPIOA_MODER_PIN5_BIT11);
     
