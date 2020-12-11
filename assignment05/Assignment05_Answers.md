@@ -10,7 +10,7 @@
 <img src="https://github.com/singh-na/images/blob/main/embsys310/assignment05/answer_1c.PNG?raw=true" width="300" alt="Assignment 5 1c" title="Assignment 5 1c" />
 
 ### 2.f
-<img src="https://github.com/singh-na/images/blob/main/embsys310/assignment05/answer_2f.PNG?raw=true" width="300" alt="Assignment 5 2f" title="Assignment 5 2f" />
+<img src="https://github.com/singh-na/images/blob/main/embsys310/assignment05/answer_2f.PNG?raw=true" width="100" alt="Assignment 5 2f" title="Assignment 5 2f" />
 
 ### 3.b
 - Initially, test to make sure the stack is empty before pushing anything on the stack.
