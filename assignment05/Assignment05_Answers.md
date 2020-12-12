@@ -11,8 +11,3 @@
 
 ### 2.f
 <img src="https://github.com/singh-na/images/blob/main/embsys310/assignment05/answer_2f.PNG?raw=true" width="100" alt="Assignment 5 2f" title="Assignment 5 2f" />
-
-### 3.b
-- Initially, test to make sure the stack is empty before pushing anything on the stack.
-- Push elements to fill the stack completely and make sure the stack full flag is returned correctly.
-- Pop elements to empty the stack completely and make sure the stack empty flag is returned correctly.
