@@ -22,6 +22,7 @@
 #define LED_OFF 0
 #define DELAY_DURATION 100000
 
+
 void delay(uint32_t iteration);
 void control_user_led1(uint8_t state, uint32_t duration);
 void enable_rcc(uint32_t port);
