@@ -12,7 +12,7 @@ int main()
     
     //Set bit 10 and unset bit 11; to set LED1 pin to output mode
     //GPIOA_MODER = (GPIOA_MODER_RESET | GPIOA_MODER_PIN5_BIT10);
-    GPIOA->MODER |= ~GPIO_MODER_MODE5_0;
+    GPIOA->MODER |= GPIO_MODER_MODE5_0;
     
     //GPIOA_MODER &= ~GPIOA_MODER_PIN5_BIT11;
     GPIOA->MODER &= ~GPIO_MODER_MODE5_1;
