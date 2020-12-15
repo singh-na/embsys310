@@ -1,0 +1,639 @@
+###############################################################################
+#
+# IAR ELF Dumper V8.40.1.212 for ARM                      15/Dec/2020  02:46:00
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Input file   =
+#        C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Obj\main.o
+#    Command line =  --all Debug\Obj\main.o
+#
+###############################################################################
+
+  32-bit little-endian relocatable ELF file for Advanced RISC Machines ARM
+
+    File version 1, header size 52, section header string section #1.
+    Flags 0x500'0000 (ARM ELF revision 5 [AAELF 2.0])
+    Entry 0x0
+
+    29 section headers, each 40 bytes, at offset 0xdb6
+
+  SECTIONS:
+
+      Name                Type     Offset  Size Aln Lnk Inf ESz Flags
+      ----                ----     ------  ---- --- --- --- --- -----
+   1: .shstrtab           strtab     0x34 0x164
+   2: .symtab             symtab    0x198 0x120       3  17  16
+   3: .strtab             strtab    0x2b8 0x101
+   4: .comment            pbits     0x3b9 0x28a
+   5: .iar.rtmodel        pbits     0x643  0x47
+   6: .debug_line         pbits     0x68a 0x224
+   7: .debug_info         pbits     0x8ae  0x8c
+   8: .text               pbits     0x93a  0x50 0x4             0x6  AX
+   9: .iar_vfe_header     pbits     0x98a   0x4 0x4
+  10: .iar.stackusage     pbits     0x98e   0x6
+  11: .iar.debug_line     pbits     0x994  0x6c
+  12: .debug_line         pbits     0xa00  0x7e
+  13: .debug_info         pbits     0xa7e  0xc9
+  14: .debug_frame        pbits     0xb47  0x3f
+  15: .rel.debug_frame    rel       0xb86  0x10       2  14   8
+  16: .rel.iar.stackusage rel       0xb96  0x10       2  10   8
+  17: .ARM.attributes     arm_attr  0xba6  0x50
+  18: .debug_loc          pbits     0xbf6  0x34
+  19: .debug_abbrev       pbits     0xc2a  0x73
+  20: .rel.debug_info     rel       0xc9d  0x58       2  13   8
+  21: .debug_pubnames     pbits     0xcf5  0x1b
+  22: .rel.debug_pubnames rel       0xd10   0x8       2  21   8
+  23: .debug_aranges      pbits     0xd18  0x1c
+  24: .rel.debug_aranges  rel       0xd34  0x10       2  23   8
+  25: .debug_macinfo      pbits     0xd44  0x42
+  26: .rel.debug_info     rel       0xd86  0x18       2   7   8
+  27: .rel.debug_line     rel       0xd9e   0x8       2  12   8
+  28: .rel.iar.debug_line rel       0xda6  0x10       2  11   8
+
+
+-------------------------------------------------------------------------------
+Section #1 .shstrtab:
+
+    0x0:
+    0x1: ".shstrtab"
+    0xb: ".symtab"
+   0x13: ".strtab"
+   0x1b: ".comment"
+   0x24: ".iar.rtmodel"
+   0x31: ".debug_line"
+   0x3d: ".debug_info"
+   0x49: ".text"
+   0x4f: ".iar_vfe_header"
+   0x5f: ".iar.stackusage"
+   0x6f: ".iar.debug_line"
+   0x7f: ".debug_frame"
+   0x8c: ".rel.debug_frame"
+   0x9d: ".rel.iar.stackusage"
+   0xb1: ".ARM.attributes"
+   0xc1: ".debug_loc"
+   0xcc: ".debug_abbrev"
+   0xda: ".rel.debug_info"
+   0xea: ".debug_pubnames"
+   0xfa: ".rel.debug_pubnames"
+  0x10e: ".debug_aranges"
+  0x11d: ".rel.debug_aranges"
+  0x130: ".debug_macinfo"
+  0x13f: ".rel.debug_line"
+  0x14f: ".rel.iar.debug_line"
+  0x163: ""
+
+
+-------------------------------------------------------------------------------
+Section #2 .symtab:
+
+  17 symbols, 16 local
+
+      Name                                Value Sec Type Bd Size Group Other
+      ----                                ----- --- ---- -- ---- ----- -----
+   1: C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c
+                                            0x0 Abs File Lc
+   2: __iar_systems$$module                 0x1 Abs  --  Lc
+   3: .text8                                0x0   8 Sect Lc
+   4: .debug_frame14                        0x0  14 Sect Lc
+   5: $t                                    0x0   8  --  Lc
+   6: $d.32                                0x44   8  --  Lc
+   7: .iar_vfe_header9                      0x0   9 Sect Lc
+   8: $d                                    0x0   9  --  Lc
+   9: .debug_abbrev19                       0x0  19 Sect Lc
+  10: .debug_info7                          0x0   7 Sect Lc
+  11: .debug_loc18                          0x0  18 Sect Lc
+  12: .debug_line12                         0x0  12 Sect Lc
+  13: .iar.debug_line11                     0x0  11 Sect Lc
+  14: .debug_info13                         0x0  13 Sect Lc
+  15: .debug_line6                          0x0   6 Sect Lc
+  16: .debug_macinfo25                      0x0  25 Sect Lc
+  17: main                                  0x1   8 Code Gb 0x50
+
+
+-------------------------------------------------------------------------------
+Section #3 .strtab:
+
+    0x0:
+    0x1: "C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c"
+   0x3c: "__iar_systems$$module"
+   0x52: ".text8"
+   0x59: ".debug_frame14"
+   0x68: "$t"
+   0x6b: "$d.32"
+   0x71: ".iar_vfe_header9"
+   0x82: "$d"
+   0x85: ".debug_abbrev19"
+   0x95: ".debug_info7"
+   0xa2: ".debug_loc18"
+   0xaf: ".debug_line12"
+   0xbd: ".iar.debug_line11"
+   0xcf: ".debug_info13"
+   0xdd: ".debug_line6"
+   0xea: ".debug_macinfo25"
+   0xfb: "main"
+  0x100: ""
+
+
+-------------------------------------------------------------------------------
+Section #4 .comment:
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  -f C:\Users\navde\AppData\Local\Temp\EWAF40.tmp (C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c -o C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Obj --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=None --dlib_config "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c\DLib_Config_Normal.h" -On -I "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\Core\Include\" -I "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\DSP\Include\")
+
+
+
+-------------------------------------------------------------------------------
+Section #5 .iar.rtmodel:
+
+  __SystemLibrary = DLib
+  __dlib_version  = 6
+  __size_limit    = 32768|ARM.EW.LINKER
+
+
+-------------------------------------------------------------------------------
+Section #6 .debug_line:
+
+  0x0: 544 bytes, utf8, version 2, 538 prologue bytes
+    code factor 1, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+       1:  'C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\Core\Include'
+       2:  'C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c'
+       3:  'C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector'
+
+    Files:
+       1:  Jan 24 02:52:02 2018    266 li  1  'cmsis_compiler.h'
+       2:  Mar 14 19:59:34 2018    913 li  1  'cmsis_iccarm.h'
+       3:  Jan 24 02:52:02 2018     39 li  1  'cmsis_version.h'
+       4:  Jan 31 14:48:06 2018   2118 li  1  'core_cm4.h'
+       5:  Jan 24 02:52:02 2018    197 li  1  'mpu_armv7.h'
+       6:  May 21 15:29:28 2019     13 li  2  'DLib_Config_Normal.h'
+       7:  May 21 15:29:28 2019    599 li  2  'DLib_Defaults.h'
+       8:  May 21 15:29:28 2019    114 li  2  'DLib_Product.h'
+       9:  May 21 15:29:28 2019    463 li  2  'iccarm_builtin.h'
+      10:  May 21 15:29:28 2019    218 li  2  'stdint.h'
+      11:  May 21 15:29:28 2019     43 li  2  'ycheck.h'
+      12:  May 21 15:29:28 2019    452 li  2  'yvals.h'
+      13:  Dec 15 02:40:29 2020     29 li  3  'main.c'
+      14:  Dec 14 10:39:04 2020  18333 li  3  'stm32l475xx.h'
+      15:  Dec 14 10:39:13 2020    125 li  3  'system_stm32l4xx.h'
+
+
+
+
+-------------------------------------------------------------------------------
+Section #7 .debug_info:
+
+   0x0: 136 bytes, version 4, abbrevs #19, addr size 4
+   0xb: + compile_unit (1)
+        |   name C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c
+        |   producer IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+        |   language C99
+        |   stmt_list #6
+        |   macro_info #25
+        |   use_UTF8 1
+        |   iar_default_encoding raw
+  0x81: |   base_type (3)
+        |     name int
+        |     byte_size 0x4
+        |     encoding signed
+  0x88: |   volatile_type (4)
+        |     type 0x81
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #26 .rel.debug_info:
+
+  # Offset Relocation    Symbol              Section
+  - ------ ----------    ------              -------
+  0    0x6 2 R_ARM_ABS32  9 .debug_abbrev19  #19 .debug_abbrev
+  1   0x78 2 R_ARM_ABS32 15 .debug_line6      #6 .debug_line
+  2   0x7c 2 R_ARM_ABS32 16 .debug_macinfo25 #25 .debug_macinfo
+
+
+-------------------------------------------------------------------------------
+Section #8 .text:
+
+          $t:
+          `.text8`:
+          main:
+   0x0: 0xb081         SUB    SP, SP, #0x4
+   0x2: 0x2000         MOVS   R0, #0
+   0x4: 0x9000         STR    R0, [SP]
+   0x6: 0x480f         LDR.N  R0, [PC, #0x3c]   ; 0x4002'104c
+   0x8: 0x6801         LDR    R1, [R0]
+   0xa: 0xf051 0x0101  ORRS.W R1, R1, #1
+   0xe: 0x6001         STR    R1, [R0]
+  0x10: 0xf05f 0x4090  MOVS.W R0, #1207959552   ; 0x48000000
+  0x14: 0x6801         LDR    R1, [R0]
+  0x16: 0xf451 0x6180  ORRS.W R1, R1, #1024     ; 0x400
+  0x1a: 0x6001         STR    R1, [R0]
+  0x1c: 0x6801         LDR    R1, [R0]
+  0x1e: 0xf431 0x6100  BICS.W R1, R1, #2048     ; 0x800
+  0x22: 0x6001         STR    R1, [R0]
+          @24:
+  0x24: 0x2000         MOVS   R0, #0
+  0x26: 0x9000         STR    R0, [SP]
+  0x28: 0x4807         LDR.N  R0, [PC, #0x1c]   ; 0x4800'0014
+  0x2a: 0x6801         LDR    R1, [R0]
+  0x2c: 0xf091 0x0120  EORS.W R1, R1, #32       ; 0x20
+  0x30: 0x6001         STR    R1, [R0]
+          @32:
+  0x32: 0x9800         LDR    R0, [SP]
+  0x34: 0x4905         LDR.N  R1, [PC, #0x14]   ; 0x1'86a0 (100000)
+  0x36: 0x4288         CMP    R0, R1
+  0x38: 0xdaf4         BGE.N  @24
+  0x3a: 0x9800         LDR    R0, [SP]
+  0x3c: 0x1c40         ADDS   R0, R0, #1
+  0x3e: 0x9000         STR    R0, [SP]
+  0x40: 0xe7f7         B.N    @32
+  0x42: 0xbf00         NOP
+          `$d.32`:
+  0x44: 0x4002'104c    DC32   0x4002'104c
+  0x48: 0x4800'0014    DC32   0x4800'0014
+  0x4c: 0x0001'86a0    DC32   0x1'86a0 (100000)
+
+
+-------------------------------------------------------------------------------
+Section #9 .iar_vfe_header:
+
+  0x0:  00 00 00 00                                      ....
+
+  This file has been checked for virtual function elimination
+
+
+-------------------------------------------------------------------------------
+Section #10 .iar.stackusage:
+
+  Stack usage (v5) in #8 for main
+    Stack usage 4
+      No call
+
+
+-------------------------------------------------------------------------------
+Section #16 .rel.iar.stackusage:
+
+  # Offset Relocation   Symbol    Section
+  - ------ ----------   ------    -------
+  0    0x0 0 R_ARM_NONE  3 .text8 #8 .text
+  1    0x1 0 R_ARM_NONE 17 main   #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #11 .iar.debug_line:
+
+  0x0: 104 bytes, version 1
+    1 function
+      N0001:  ref  #13:0x8d
+    0 types
+    t_org .text8
+    t_statement_info COMMON
+      id = 0, version = 1, code factor = 2, line base = 0,
+      line range = 5, start col base = -8, start col range = 17,
+      end col base = -20, end col range = 41, opcode base = 14
+    t_statement_info DATA
+      code factor 2, total bytes 80
+      fun N0001 PRIMARY o0 [6:1-26:28]
+          set_step_kind 3
+          set_extra_lines 1
+          advance_line 23895
+          Special(pc 0, line 4, scol 1, ecol 1)
+        0 @0x0 Func begin([6:1-7:1])
+          advance_start_col 9
+          advance_end_col 14
+          Special(pc 2, line 2, scol 8, ecol 20)
+        1 @0x2 Statement([8:18-35])
+          advance_start_col -5
+          Special(pc 4, line 3, scol -8, ecol 5)
+        2 @0x6 Statement([11:5-40])
+          Special(pc 10, line 4, scol 0, ecol -1)
+        3 @0x10 Statement([15:5-39])
+          Special(pc 12, line 3, scol 0, ecol 1)
+        4 @0x1c Statement([18:5-40])
+          advance_end_col -8
+          Special(pc 8, line 2, scol 0, ecol -20)
+        5 @0x24 Statement([20:5-12])
+          Special(pc 0, line 1, scol 4, ecol 14)
+        6 @0x24 Statement([21:9-26])
+          Special(pc 4, line 2, scol 0, ecol 9)
+        7 @0x28 Statement([23:9-35])
+          add_reachable 5
+          Special(pc 10, line 2, scol 0, ecol 1)
+        8 @0x32 Statement([25:9-36])
+          clear_reachable
+          add_reachable 8
+          Special(pc 8, line 1, scol 4, ecol -8)
+        9 @0x3a Statement([26:13-28])
+
+
+-------------------------------------------------------------------------------
+Section #28 .rel.iar.debug_line:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32  3 .text8         #8 .text
+  1    0xf 2 R_ARM_ABS32 14 .debug_info13 #13 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #12 .debug_line:
+
+  0x0: 122 bytes, utf8, version 2, 82 prologue bytes
+    code factor 2, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+      1:  'C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector'
+
+    Files:
+      1:  Dec 15 02:40:29 2020  29 li  1  'main.c'
+
+         set_address .text8
+         set_column 1
+         advance_line 2
+         special(0x0, 4)
+     0x0 [7:1]
+         set_column 18
+         special(0x2, 1)
+     0x2 [8:18]
+         set_column 5
+         special(0x4, 3)
+     0x6 [11:5]
+         special(0xa, 4)
+    0x10 [15:5]
+         special(0xc, 3)
+    0x1c [18:5]
+         special(0x8, 2)
+    0x24 [20:5]
+         set_column 9
+         special(0x0, 1)
+    0x24 [21:9]
+         special(0x4, 2)
+    0x28 [23:9]
+         special(0xa, 2)
+    0x32 [25:9]
+         set_column 13
+         special(0x8, 1)
+    0x3a [26:13]
+         advance_pc 0x16
+         end_sequence
+    0x50
+
+
+-------------------------------------------------------------------------------
+Section #27 .rel.debug_line:
+
+  # Offset Relocation    Symbol   Section
+  - ------ ----------    ------   -------
+  0   0x5f 2 R_ARM_ABS32 3 .text8 #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #13 .debug_info:
+
+   0x0: 197 bytes, version 4, abbrevs #19, addr size 4
+   0xb: + compile_unit (2)
+        |   name C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c
+        |   producer IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+        |   language C99
+        |   low_pc .text8
+        |   high_pc 0x50
+        |   stmt_list #12
+        |   iar_stmt_list #11
+        |   iar_source_line_sequence #7:0xb
+        |   use_UTF8 1
+        |   iar_default_encoding raw
+  0x8d: | + subprogram (5)
+        | |   sibling 0xc8
+        | |   name main
+        | |   decl_file 1
+        | |   decl_line 6
+        | |   decl_column 5
+        | |   iar_decl_end_column 8
+        | |   external 1
+        | |   type #7:0x81
+        | |   frame_base #18 <0x0-0x2:[breg13 0]|0x2-0x50:[breg13 4]>
+        | |   low_pc .text8
+        | |   high_pc .text8 + 0x50
+  0xac: | |   variable (6)
+        | |     name delay_counter
+        | |     decl_file 1
+        | |     decl_line 8
+        | |     decl_column 18
+        | |     iar_decl_end_column 30
+        | |     type #7:0x88
+        | |     location #18:0x20 <0x6-0x50:[fbreg -4]>
+        | +-- 0
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #20 .rel.debug_info:
+
+   # Offset Relocation    Symbol               Section
+   - ------ ----------    ------               -------
+   0    0x6 2 R_ARM_ABS32  9 .debug_abbrev19   #19 .debug_abbrev
+   1   0xa4 2 R_ARM_ABS32  3 .text8             #8 .text
+   2   0xa8 2 R_ARM_ABS32  3 .text8             #8 .text
+   3   0x78 2 R_ARM_ABS32  3 .text8             #8 .text
+   4   0x9c 2 R_ARM_ABS32 10 .debug_info7       #7 .debug_info
+   5   0xa0 2 R_ARM_ABS32 11 .debug_loc18      #18 .debug_loc
+   6   0xbf 2 R_ARM_ABS32 10 .debug_info7       #7 .debug_info
+   7   0xc3 2 R_ARM_ABS32 11 .debug_loc18      #18 .debug_loc
+   8   0x80 2 R_ARM_ABS32 12 .debug_line12     #12 .debug_line
+   9   0x84 2 R_ARM_ABS32 13 .iar.debug_line11 #11 .iar.debug_line
+  10   0x88 2 R_ARM_ABS32 10 .debug_info7       #7 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #14 .debug_frame:
+
+  CIE 0x0: 40 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+  FDE 0x2c: 15 bytes, CIE 0x0, loc .text8, range 0x50
+    0x0 advance_loc       0x2
+    0x2 def_cfa_offset_sf 0x4
+
+
+-------------------------------------------------------------------------------
+Section #15 .rel.debug_frame:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0   0x30 2 R_ARM_ABS32 4 .debug_frame14 #14 .debug_frame
+  1   0x34 2 R_ARM_ABS32 3 .text8          #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #17 .ARM.attributes:
+
+  Vendor: aeabi
+    Tag_conformance          "2.10"
+    Tag_CPU_name             "Cortex-M4"
+    Tag_CPU_arch             ARM v7E-M (13)
+    Tag_CPU_arch_profile     Microcontroller profile (M)
+    Tag_THUMB_ISA_use        Allows 16-bit and 32-bit Thumb instructions (2)
+    Tag_PCS_config           Bare platform (1)
+    Tag_ABI_PCS_GOT_use      Directly addressed imported data (1)
+    Tag_ABI_PCS_wchar_t      Size of wchar_t is 4 (4)
+    Tag_ABI_align_needed     Depends on 8-byte alignment of 8-byte data (1)
+    Tag_ABI_align_preserved  Preserves 8-byte alignment of 8-byte data (1)
+    Tag_ABI_VFP_args         No AAPCS variant dependent functions is exported/imported (3)
+    Tag_CPU_unaligned_access Allows v6-style unaligned data accessess (1)
+    Tag_DIV_use              No use of SDIV or UDIV (1)
+
+  Vendor: iar
+  0x0:  02 02 04 01 08 02 0a 02 0e 01 14 01              ............
+
+
+
+-------------------------------------------------------------------------------
+Section #18 .debug_loc:
+
+   0x0 0x0 -  0x2: [breg13 0]
+       0x2 - 0x50: [breg13 4]
+       End
+  0x20 0x6 - 0x50: [fbreg -4]
+       End
+
+
+-------------------------------------------------------------------------------
+Section #19 .debug_abbrev:
+
+  1 compile_unit [has children]
+      name                     string
+      producer                 string
+      language                 data1
+      stmt_list                sec_offset
+      macro_info               sec_offset
+      use_UTF8                 flag_present
+      iar_default_encoding     data1
+  2 compile_unit [has children]
+      name                     string
+      producer                 string
+      language                 data1
+      low_pc                   addr
+      high_pc                  data4
+      stmt_list                sec_offset
+      iar_stmt_list            sec_offset
+      iar_source_line_sequence ref_addr
+      use_UTF8                 flag_present
+      iar_default_encoding     data1
+  3 base_type [no children]
+      name                     string
+      byte_size                udata
+      encoding                 data1
+  5 subprogram [has children]
+      sibling                  ref4
+      name                     string
+      decl_file                udata
+      decl_line                udata
+      decl_column              udata
+      iar_decl_end_column      udata
+      external                 flag
+      type                     ref_addr
+      frame_base               sec_offset
+      low_pc                   addr
+      high_pc                  addr
+  6 variable [no children]
+      name                     string
+      decl_file                udata
+      decl_line                udata
+      decl_column              udata
+      iar_decl_end_column      udata
+      type                     ref_addr
+      location                 sec_offset
+  4 volatile_type [no children]
+      type                     ref_udata
+
+
+-------------------------------------------------------------------------------
+Section #21 .debug_pubnames:
+
+  0x0: 23 bytes, version 2, for unit at #13, size 201
+
+    Offset Name
+    ------ ----
+      0x8d main
+
+
+-------------------------------------------------------------------------------
+Section #22 .rel.debug_pubnames:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 14 .debug_info13 #13 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #23 .debug_aranges:
+
+  0x0: 24 bytes, version 2, for unit at #13, address size 4, segment size 0
+
+    Address Length
+    ------- ------
+     .text8   0x50
+
+
+-------------------------------------------------------------------------------
+Section #24 .rel.debug_aranges:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 14 .debug_info13 #13 .debug_info
+  1    0xc 2 R_ARM_ABS32  3 .text8         #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #25 .debug_macinfo:
+
+  0x0:
+    Include file 13 at line 0
+      Include file 14 at line 1
+        Include file 4 at line 165
+          Include file 10 at line 34
+            Include file 11 at line 10
+            End include
+            Include file 12 at line 11
+              Include file 7 at line 42
+                Include file 6 at line 39
+                End include
+                Include file 8 at line 50
+                End include
+              End include
+            End include
+          End include
+          Include file 3 at line 63
+          End include
+          Include file 1 at line 162
+            Include file 2 at line 55
+              Include file 9 at line 260
+              End include
+            End include
+          End include
+          Include file 5 at line 1949
+          End include
+        End include
+        Include file 15 at line 166
+        End include
+      End include
+    End include
+
+Errors: none
+Warnings: none

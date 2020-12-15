@@ -1,0 +1,2 @@
+startup_stm32l475xx.pbi: \
+  C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\startup_stm32l475xx.c

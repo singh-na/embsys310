@@ -1,0 +1,3 @@
+main.pbi: \
+  C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\stm32l475xx.h \
+  C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c

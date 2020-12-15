@@ -1,0 +1,167 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  15/Dec/2020  03:03:32
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Exe\blinkLEDVector.out
+#    Map file     =
+#        C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\List\blinkLEDVector.map
+#    Command line =
+#        -f C:\Users\navde\AppData\Local\Temp\EWB726.tmp
+#        (C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Obj\main.o
+#        C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Obj\startup_stm32l475xx.o
+#        --no_out_extension -o
+#        C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Exe\blinkLEDVector.out
+#        --map
+#        C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\List\blinkLEDVector.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.3\arm\config\linker\ST\stm32l475xG.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x0] |
+                [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block PROC_STACK with size = 0, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P3":  place in [from 0x2000'0000 to 0x2001'7fff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+
+No sections matched the following patterns:
+
+  ro section application_specific_ro  in "P2|P5"
+  rw                                  in "P3"
+  rw section application_specific_rw  in "P2|P5"
+  section .textrw                     in "P4"
+
+
+  Section   Kind         Address    Size  Object
+  -------   ----         -------    ----  ------
+"A0":                                0x8
+  .intvec   const     0x800'0000     0x8  startup_stm32l475xx.o [1]
+                    - 0x800'0008     0x8
+
+"P1":                               0xa4
+  .text     ro code   0x800'0008    0x50  main.o [1]
+  .text     ro code   0x800'0058    0x1e  cmain.o [3]
+  .text     ro code   0x800'0076     0x4  low_level_init.o [2]
+  .text     ro code   0x800'007a     0x4  exit.o [2]
+  .text     ro code   0x800'0080     0xa  cexit.o [3]
+  .text     ro code   0x800'008c    0x14  exit.o [4]
+  .text     ro code   0x800'00a0     0xc  cstartup_M.o [3]
+                    - 0x800'00ac    0xa4
+
+"P3":                             0x2000
+  CSTACK             0x2000'0000  0x2000  <Block>
+    CSTACK  uninit   0x2000'0000  0x2000  <Block tail>
+                   - 0x2000'2000  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+          0x0          0x0       0x1
+   0x800'00ac   0x80f'ffff  0xf'ff54
+  0x2000'2000  0x2001'7fff  0x1'6000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Obj: [1]
+    main.o                      80
+    startup_stm32l475xx.o                 8
+    ------------------------------------------------
+    Total:                      80        8
+
+dl7M_tln.a: [2]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+rt7M_tl.a: [3]
+    cexit.o                     10
+    cmain.o                     30
+    cstartup_M.o                12
+    ------------------------------------------------
+    Total:                      52
+
+shb_l.a: [4]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         4
+    Linker created                             8'192
+----------------------------------------------------
+    Grand Total:               164        8    8'192
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address  Size  Type      Object
+-----                     -------  ----  ----      ------
+?main                  0x800'0059        Code  Gb  cmain.o [3]
+CSTACK$$Base          0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit         0x2000'2000         --   Gb  - Linker created -
+Region$$Table$$Base           0x0         --   Gb  - Linker created -
+Region$$Table$$Limit          0x0         --   Gb  - Linker created -
+__cmain                0x800'0059        Code  Gb  cmain.o [3]
+__exit                 0x800'008d  0x14  Code  Gb  exit.o [4]
+__iar_program_start    0x800'00a1        Code  Gb  cstartup_M.o [3]
+__low_level_init       0x800'0077   0x4  Code  Gb  low_level_init.o [2]
+__vector_table         0x800'0000   0x8  Data  Gb  startup_stm32l475xx.o [1]
+_call_main             0x800'0065        Code  Gb  cmain.o [3]
+_exit                  0x800'0081        Code  Gb  cexit.o [3]
+_main                  0x800'0073        Code  Gb  cmain.o [3]
+exit                   0x800'007b   0x4  Code  Gb  exit.o [2]
+main                   0x800'0009  0x50  Code  Gb  main.o [1]
+
+
+[1] = C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    164 bytes of readonly  code memory
+      8 bytes of readonly  data memory
+  8'192 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

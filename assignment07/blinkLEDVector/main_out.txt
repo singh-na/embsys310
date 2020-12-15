@@ -1,0 +1,848 @@
+###############################################################################
+#
+# IAR ELF Dumper V8.40.1.212 for ARM                      15/Dec/2020  02:46:20
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Input file   =
+#        C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Exe\blinkLEDVector.out
+#    Command line =  --all Debug\Exe\blinkLEDVector.out
+#
+###############################################################################
+
+  32-bit little-endian executable ELF file for Advanced RISC Machines ARM
+
+    File version 1, header size 52, section header string section #1.
+    Flags 0x500'0000 (ARM ELF revision 5 [AAELF 2.0])
+    Entry 0x800'00d9
+
+     1 program headers, each 32 bytes, at offset 0x2880
+    19 section headers, each 40 bytes, at offset 0x28a0
+
+  SEGMENTS:
+
+     Type Offset    Virtual   Physical File Sz Mem Sz Flags   Align
+     ---- ------    -------   -------- ------- ------ -----   -----
+  0: load   0x34 0x800'0000 0x800'0000    0xe4   0xe4 0x5 X R   0x4
+
+  SECTIONS:
+
+      Name            Type            Addr Offset   Size Aln Lnk Inf ESz Flags
+      ----            ----            ---- ------   ---- --- --- --- --- -----
+   1: .shstrtab       strtab               0x1e98   0xc6 0x4
+   2: .strtab         strtab               0x1f60  0x53e 0x4
+   3: .symtab         symtab               0x24a0  0x3e0 0x4   2  36  16
+   4: A0              pbits     0x800'0000   0x34   0x40 0x4           1 0x6  AX
+   5: P1              pbits     0x800'0040   0x74   0xa4 0x4           1 0x6  AX
+   6: P3              nobits   0x2000'0000  0x118 0x2004 0x8           1 0x3 WA
+   7: .debug_abbrev   pbits                 0x118   0x73               1
+   8: .debug_aranges  pbits                 0x18c   0x1c               1
+   9: .debug_frame    pbits                 0x1a8  0x134               1
+  10: .debug_info     pbits                 0x2dc  0x155               1
+  11: .debug_line     pbits                 0x434  0x2a2               1
+  12: .debug_loc      pbits                 0x6d8   0x34               1
+  13: .debug_macinfo  pbits                 0x70c   0x42               1
+  14: .debug_pubnames pbits                 0x750   0x1b               1
+  15: .iar.debug_line pbits                 0x76c   0x6c               1
+  16: .comment        pbits                 0x7d8 0x1664               1
+  17: .iar.rtmodel    pbits                0x1e3c   0x32               1
+  18: .ARM.attributes arm_attr             0x1e70   0x28               1
+
+
+-------------------------------------------------------------------------------
+Section #1 .shstrtab:
+
+   0x0:
+   0x1: ".shstrtab"
+   0xb: ".strtab"
+  0x13: ".symtab"
+  0x1b: "A0"
+  0x1e: "P1"
+  0x21: "P3"
+  0x24: ".debug_abbrev"
+  0x32: ".debug_aranges"
+  0x41: ".debug_frame"
+  0x4e: ".debug_info"
+  0x5a: ".debug_line"
+  0x66: ".debug_loc"
+  0x71: ".debug_macinfo"
+  0x80: ".debug_pubnames"
+  0x90: ".iar.debug_line"
+  0xa0: ".comment"
+  0xa9: ".iar.rtmodel"
+  0xb6: ".ARM.attributes"
+
+
+-------------------------------------------------------------------------------
+Section #2 .strtab:
+
+    0x0:
+    0x1: "$m"
+    0x4: "$d"
+    0x7: "$t"
+    0xa: "$d.32"
+   0x10: "C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c"
+   0x4b: ".text8"
+   0x52: "?cstartup"
+   0x5c: ".text6"
+   0x63: "cmain"
+   0x69: ".text_3"
+   0x71: "?vector_table"
+   0x7f: "__default_handler"
+   0x91: ".intvec7"
+   0x9a: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\runtime\low_level_init.c"
+   0xe8: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\runtime\exit.c"
+  0x12c: "?cexit"
+  0x133: ".text_4"
+  0x13b: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\semihosting\exit.c"
+  0x183: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\zero_init3.c"
+  0x1ca: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\copy_init3.c"
+  0x211: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\rle_init_single.c"
+  0x25d: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\rle_init.c"
+  0x2a2: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\packbits_init_single.c"
+  0x2f3: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\packbits_init.c"
+  0x33d: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\lz77_init_single.c"
+  0x38a: "C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\lz77_init.c"
+  0x3d0: "Region$$Table$$Base"
+  0x3e4: "Region$$Table$$Limit"
+  0x3f9: "__iar_systems$$module"
+  0x40f: "__vector_table"
+  0x41e: "main"
+  0x423: "__cmain"
+  0x42b: "?main"
+  0x431: "_call_main"
+  0x43c: "_main"
+  0x442: "__low_level_init"
+  0x453: "exit"
+  0x458: "NMI_Handler"
+  0x464: "HardFault_Handler"
+  0x476: "MemManage_Handler"
+  0x488: "BusFault_Handler"
+  0x499: "UsageFault_Handler"
+  0x4ac: "SVC_Handler"
+  0x4b8: "DebugMon_Handler"
+  0x4c9: "PendSV_Handler"
+  0x4d8: "SysTick_Handler"
+  0x4e8: "_exit"
+  0x4ee: "__exit"
+  0x4f5: "__iar_program_start"
+  0x509: "CSTACK$$Base"
+  0x516: "CSTACK$$Limit"
+  0x524: "__iar_rom_use_PlMW0RG7yx$"
+
+
+-------------------------------------------------------------------------------
+Section #3 .symtab:
+
+  61 symbols, 35 local
+
+      Name                                Value       Sec Type Bd Size Group Other
+      ----                                -----       --- ---- -- ---- ----- -----
+   1: $m                                          0x7 Abs  --  Lc
+   2: $d                                   0x800'0000   4  --  Lc
+   3: $t                                   0x800'0040   5  --  Lc
+   4: $d.32                                0x800'0084   5  --  Lc
+   5: $t                                   0x800'0090   5  --  Lc
+   6: $d.32                                0x800'00d4   5  --  Lc
+   7: $t                                   0x800'00d8   5  --  Lc
+   8: C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c
+                                                  0x0 Abs File Lc
+   9: .text8                               0x800'0040   5 Sect Lc
+  10: ?cstartup                                   0x0 Abs File Lc
+  11: .text6                               0x800'00d8   5 Sect Lc
+  12: cmain                                       0x0 Abs File Lc
+  13: .text8                               0x800'0090   5 Sect Lc
+  14: .text_3                              0x800'009c   5  --  Lc
+  15: ?vector_table                               0x0 Abs File Lc
+  16: __default_handler                    0x800'00b7   5 Code Lc
+  17: .intvec7                             0x800'0000   4 Sect Lc
+  18: .text8                               0x800'00b6   5 Sect Lc
+  19: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\runtime\low_level_init.c
+                                                  0x0 Abs File Lc
+  20: .text6                               0x800'00ae   5 Sect Lc
+  21: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\runtime\exit.c
+                                                  0x0 Abs File Lc
+  22: .text6                               0x800'00b2   5 Sect Lc
+  23: ?cexit                                      0x0 Abs File Lc
+  24: .text6                               0x800'00b8   5 Sect Lc
+  25: .text_4                              0x800'00ba   5  --  Lc
+  26: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\semihosting\exit.c
+                                                  0x0 Abs File Lc
+  27: .text6                               0x800'00c4   5 Sect Lc
+  28: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\zero_init3.c
+                                                  0x0 Abs File Lc
+  29: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\copy_init3.c
+                                                  0x0 Abs File Lc
+  30: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\rle_init_single.c
+                                                  0x0 Abs File Lc
+  31: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\rle_init.c
+                                                  0x0 Abs File Lc
+  32: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\packbits_init_single.c
+                                                  0x0 Abs File Lc
+  33: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\packbits_init.c
+                                                  0x0 Abs File Lc
+  34: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\lz77_init_single.c
+                                                  0x0 Abs File Lc
+  35: C:\j\workspace\Arm840Build\build\win\lib\arm\src\lib\init\lz77_init.c
+                                                  0x0 Abs File Lc
+  36: Region$$Table$$Base                         0x0 Ext  --  Gb
+  37: Region$$Table$$Limit                        0x0 Ext  --  Gb
+  38: __iar_systems$$module                       0x1 Ext Data Gb
+  39: __vector_table                       0x800'0000   4 Data Gb
+  40: main                                 0x800'0041   5 Code Gb 0x50
+  41: __cmain                              0x800'0091   5 Code Gb
+  42: ?main                                0x800'0091   5 Code Gb
+  43: _call_main                           0x800'009d   5 Code Gb
+  44: _main                                0x800'00ab   5 Code Gb
+  45: __low_level_init                     0x800'00af   5 Code Gb  0x4
+  46: exit                                 0x800'00b3   5 Code Gb  0x4
+  47: NMI_Handler                          0x800'00b7   5 Code Wk
+  48: HardFault_Handler                    0x800'00b7   5 Code Wk
+  49: MemManage_Handler                    0x800'00b7   5 Code Wk
+  50: BusFault_Handler                     0x800'00b7   5 Code Wk
+  51: UsageFault_Handler                   0x800'00b7   5 Code Wk
+  52: SVC_Handler                          0x800'00b7   5 Code Wk
+  53: DebugMon_Handler                     0x800'00b7   5 Code Wk
+  54: PendSV_Handler                       0x800'00b7   5 Code Wk
+  55: SysTick_Handler                      0x800'00b7   5 Code Wk
+  56: _exit                                0x800'00b9   5 Code Gb
+  57: __exit                               0x800'00c5   5 Code Gb 0x14
+  58: __iar_program_start                  0x800'00d9   5 Code Gb
+  59: CSTACK$$Base                        0x2000'0000   6  --  Gb
+  60: CSTACK$$Limit                       0x2000'2004   6  --  Gb
+  61: __iar_rom_use_PlMW0RG7yx$                  0xe2 Abs  --  Gb
+
+
+-------------------------------------------------------------------------------
+Section #4 A0:
+
+                $d:
+                `.intvec7`:
+                __vector_table:
+  0x800'0000: 0x2000'2004  DC32 0x2000'2004
+  0x800'0004: 0x0800'00d9  DC32 __iar_program_start
+  0x800'0008: 0x0800'00b7  DC32 SysTick_Handler
+  0x800'000c: 0x0800'00b7  DC32 SysTick_Handler
+  0x800'0010: 0x0800'00b7  DC32 SysTick_Handler
+  0x800'0014: 0x0800'00b7  DC32 SysTick_Handler
+  0x800'0018: 0x0800'00b7  DC32 SysTick_Handler
+  0x800'001c: 0x0000'0000  DC32 0x0 (0)
+  0x800'0020: 0x0000'0000  DC32 0x0 (0)
+  0x800'0024: 0x0000'0000  DC32 0x0 (0)
+  0x800'0028: 0x0000'0000  DC32 0x0 (0)
+  0x800'002c: 0x0800'00b7  DC32 SysTick_Handler
+  0x800'0030: 0x0800'00b7  DC32 SysTick_Handler
+  0x800'0034: 0x0000'0000  DC32 0x0 (0)
+  0x800'0038: 0x0800'00b7  DC32 SysTick_Handler
+  0x800'003c: 0x0800'00b7  DC32 SysTick_Handler
+
+
+-------------------------------------------------------------------------------
+Section #5 P1:
+
+                $t:
+                `.text8`:
+                main:
+  0x800'0040: 0xb081         SUB    SP, SP, #0x4
+  0x800'0042: 0x2000         MOVS   R0, #0
+  0x800'0044: 0x9000         STR    R0, [SP]
+  0x800'0046: 0x480f         LDR.N  R0, [PC, #0x3c]   ; 0x4002'104c
+  0x800'0048: 0x6801         LDR    R1, [R0]
+  0x800'004a: 0xf051 0x0101  ORRS.W R1, R1, #1
+  0x800'004e: 0x6001         STR    R1, [R0]
+  0x800'0050: 0xf05f 0x4090  MOVS.W R0, #1207959552   ; 0x48000000
+  0x800'0054: 0x6801         LDR    R1, [R0]
+  0x800'0056: 0xf451 0x6180  ORRS.W R1, R1, #1024     ; 0x400
+  0x800'005a: 0x6001         STR    R1, [R0]
+  0x800'005c: 0x6801         LDR    R1, [R0]
+  0x800'005e: 0xf431 0x6100  BICS.W R1, R1, #2048     ; 0x800
+  0x800'0062: 0x6001         STR    R1, [R0]
+                @8000064:
+  0x800'0064: 0x2000         MOVS   R0, #0
+  0x800'0066: 0x9000         STR    R0, [SP]
+  0x800'0068: 0x4807         LDR.N  R0, [PC, #0x1c]   ; 0x4800'0014
+  0x800'006a: 0x6801         LDR    R1, [R0]
+  0x800'006c: 0xf091 0x0120  EORS.W R1, R1, #32       ; 0x20
+  0x800'0070: 0x6001         STR    R1, [R0]
+                @8000072:
+  0x800'0072: 0x9800         LDR    R0, [SP]
+  0x800'0074: 0x4905         LDR.N  R1, [PC, #0x14]   ; 0x1'86a0 (100000)
+  0x800'0076: 0x4288         CMP    R0, R1
+  0x800'0078: 0xdaf4         BGE.N  @8000064
+  0x800'007a: 0x9800         LDR    R0, [SP]
+  0x800'007c: 0x1c40         ADDS   R0, R0, #1
+  0x800'007e: 0x9000         STR    R0, [SP]
+  0x800'0080: 0xe7f7         B.N    @8000072
+  0x800'0082: 0xbf00         NOP
+                `$d.32`:
+  0x800'0084: 0x4002'104c    DC32   0x4002'104c
+  0x800'0088: 0x4800'0014    DC32   0x4800'0014
+  0x800'008c: 0x0001'86a0    DC32   0x1'86a0 (100000)
+                $t:
+                `.text8`:
+                ?main:
+                __cmain:
+  0x800'0090: 0xf000 0xf80d  BL     __low_level_init  ; 0x800'00ae
+  0x800'0094: 0x2800         CMP    R0, #0
+  0x800'0096: 0xd001         BEQ.N  _call_main        ; 0x800'009c
+  0x800'0098: 0xf3af 0x8000  NOP.W
+                `.text_3`:
+                _call_main:
+  0x800'009c: 0xf3af 0x8000  NOP.W
+  0x800'00a0: 0x2000         MOVS   R0, #0
+  0x800'00a2: 0xf3af 0x8000  NOP.W
+  0x800'00a6: 0xf7ff 0xffcb  BL     main              ; 0x800'0040
+                _main:
+  0x800'00aa: 0xf000 0xf802  BL     exit              ; 0x800'00b2
+                `.text6`:
+                __low_level_init:
+  0x800'00ae: 0x2001         MOVS   R0, #1
+  0x800'00b0: 0x4770         BX     LR
+                `.text6`:
+                exit:
+  0x800'00b2: 0xf000 0xb801  B.W    _exit             ; 0x800'00b8
+                `.text8`:
+                __default_handler:
+                NMI_Handler:
+                HardFault_Handler:
+                MemManage_Handler:
+                BusFault_Handler:
+                UsageFault_Handler:
+                SVC_Handler:
+                DebugMon_Handler:
+                PendSV_Handler:
+                SysTick_Handler:
+  0x800'00b6: 0xe7fe         B.N    SysTick_Handler   ; 0x800'00b6
+                `.text6`:
+                _exit:
+  0x800'00b8: 0x4607         MOV    R7, R0
+                `.text_4`:
+                @80000ba:
+  0x800'00ba: 0x4638         MOV    R0, R7
+  0x800'00bc: 0xf000 0xf802  BL     __exit            ; 0x800'00c4
+  0x800'00c0: 0xe7fb         B.N    @80000ba
+  0x800'00c2: 0x0000         MOVS   R0, R0
+                `.text6`:
+                __exit:
+  0x800'00c4: 0xb580         PUSH   {R7, LR}
+  0x800'00c6: 0xf3af 0x8000  NOP.W
+  0x800'00ca: 0x4a02         LDR.N  R2, [PC, #0x8]    ; 0x2'0026
+                @80000cc:
+  0x800'00cc: 0x0011         MOVS   R1, R2
+  0x800'00ce: 0x2018         MOVS   R0, #24           ; 0x18
+  0x800'00d0: 0xbeab         BKPT   #0xab
+  0x800'00d2: 0xe7fb         B.N    @80000cc
+                `$d.32`:
+  0x800'00d4: 0x0002'0026    DC32   0x2'0026
+                $t:
+                `.text6`:
+                __iar_program_start:
+  0x800'00d8: 0xf3af 0x8000  NOP.W
+  0x800'00dc: 0xf3af 0x8000  NOP.W
+  0x800'00e0: 0xf7ff 0xffd6  BL     __cmain           ; 0x800'0090
+
+
+-------------------------------------------------------------------------------
+Section #7 .debug_abbrev:
+
+  0x0:
+    1 compile_unit [has children]
+        name                     string
+        producer                 string
+        language                 data1
+        stmt_list                sec_offset
+        macro_info               sec_offset
+        use_UTF8                 flag_present
+        iar_default_encoding     data1
+    2 compile_unit [has children]
+        name                     string
+        producer                 string
+        language                 data1
+        low_pc                   addr
+        high_pc                  data4
+        stmt_list                sec_offset
+        iar_stmt_list            sec_offset
+        iar_source_line_sequence ref_addr
+        use_UTF8                 flag_present
+        iar_default_encoding     data1
+    3 base_type [no children]
+        name                     string
+        byte_size                udata
+        encoding                 data1
+    5 subprogram [has children]
+        sibling                  ref4
+        name                     string
+        decl_file                udata
+        decl_line                udata
+        decl_column              udata
+        iar_decl_end_column      udata
+        external                 flag
+        type                     ref_addr
+        frame_base               sec_offset
+        low_pc                   addr
+        high_pc                  addr
+    6 variable [no children]
+        name                     string
+        decl_file                udata
+        decl_line                udata
+        decl_column              udata
+        iar_decl_end_column      udata
+        type                     ref_addr
+        location                 sec_offset
+    4 volatile_type [no children]
+        type                     ref_udata
+
+
+-------------------------------------------------------------------------------
+Section #8 .debug_aranges:
+
+  0x0: 24 bytes, version 2, for unit at 0x8c, address size 4, segment size 0
+
+              Address Length
+              ------- ------
+    main [0x800'0040]   0x50
+
+
+-------------------------------------------------------------------------------
+Section #9 .debug_frame:
+
+  CIE 0x0: 40 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+  FDE 0x2c: 15 bytes, CIE 0x0, loc main [0x800'0040], range 0x50
+    0x0 advance_loc       0x2
+    0x2 def_cfa_offset_sf 0x4
+  CIE 0x3f: 40 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+  FDE 0x6b: 12 bytes, CIE 0x3f, loc __default_handler [0x800'00b6], range 0x2
+
+  CIE 0x7b: 40 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+  FDE 0xa7: 12 bytes, CIE 0x7b, loc __low_level_init [0x800'00ae], range 0x4
+
+  CIE 0xb7: 40 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+  FDE 0xe3: 12 bytes, CIE 0xb7, loc exit [0x800'00b2], range 0x4
+
+  CIE 0xf3: 40 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+  FDE 0x11f: 17 bytes, CIE 0xf3, loc __exit [0x800'00c4], range 0x14
+    0x0 advance_loc       0x2
+    0x2 def_cfa_offset_sf 0x8
+        offset            R14 -0x4
+
+
+-------------------------------------------------------------------------------
+Section #10 .debug_info:
+
+   0x0: 136 bytes, version 4, abbrevs 0x0, addr size 4
+   0xb: + compile_unit (1)
+        |   name C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c
+        |   producer IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+        |   language C99
+        |   stmt_list .debug_line + 0x0
+        |   macro_info .debug_macinfo + 0x0
+        |   use_UTF8 1
+        |   iar_default_encoding raw
+  0x81: |   base_type (3)
+        |     name int
+        |     byte_size 0x4
+        |     encoding signed
+  0x88: |   volatile_type (4)
+        |     type 0x81
+        +-- 0
+   0x8c: 197 bytes, version 4, abbrevs 0x0, addr size 4
+   0x97: + compile_unit (2)
+         |   name C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c
+         |   producer IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+         |   language C99
+         |   low_pc main [0x800'0040]
+         |   high_pc 0x50
+         |   stmt_list .debug_line + 0x224
+         |   iar_stmt_list .iar.debug_line + 0x0
+         |   iar_source_line_sequence 0xb
+         |   use_UTF8 1
+         |   iar_default_encoding raw
+  0x119: | + subprogram (5)
+         | |   sibling 0x154
+         | |   name main
+         | |   decl_file 1
+         | |   decl_line 6
+         | |   decl_column 5
+         | |   iar_decl_end_column 8
+         | |   external 1
+         | |   type 0x81
+         | |   frame_base .debug_loc + 0x0 <0x0-0x2:[breg13 0]|0x2-0x50:[breg13 4]>
+         | |   low_pc main [0x800'0040]
+         | |   high_pc ?main [0x800'0090]
+  0x138: | |   variable (6)
+         | |     name delay_counter
+         | |     decl_file 1
+         | |     decl_line 8
+         | |     decl_column 18
+         | |     iar_decl_end_column 30
+         | |     type 0x88
+         | |     location .debug_loc + 0x20 <0x6-0x50:[fbreg -4]>
+         | +-- 0
+         +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #11 .debug_line:
+
+  0x0: 544 bytes, utf8, version 2, 538 prologue bytes
+    code factor 1, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+       1:  'C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\Core\Include'
+       2:  'C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c'
+       3:  'C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector'
+
+    Files:
+       1:  Jan 24 02:52:02 2018    266 li  1  'cmsis_compiler.h'
+       2:  Mar 14 19:59:34 2018    913 li  1  'cmsis_iccarm.h'
+       3:  Jan 24 02:52:02 2018     39 li  1  'cmsis_version.h'
+       4:  Jan 31 14:48:06 2018   2118 li  1  'core_cm4.h'
+       5:  Jan 24 02:52:02 2018    197 li  1  'mpu_armv7.h'
+       6:  May 21 15:29:28 2019     13 li  2  'DLib_Config_Normal.h'
+       7:  May 21 15:29:28 2019    599 li  2  'DLib_Defaults.h'
+       8:  May 21 15:29:28 2019    114 li  2  'DLib_Product.h'
+       9:  May 21 15:29:28 2019    463 li  2  'iccarm_builtin.h'
+      10:  May 21 15:29:28 2019    218 li  2  'stdint.h'
+      11:  May 21 15:29:28 2019     43 li  2  'ycheck.h'
+      12:  May 21 15:29:28 2019    452 li  2  'yvals.h'
+      13:  Dec 15 02:40:29 2020     29 li  3  'main.c'
+      14:  Dec 14 10:39:04 2020  18333 li  3  'stm32l475xx.h'
+      15:  Dec 14 10:39:13 2020    125 li  3  'system_stm32l4xx.h'
+
+
+
+  0x224: 122 bytes, utf8, version 2, 82 prologue bytes
+    code factor 2, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+      1:  'C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector'
+
+    Files:
+      1:  Dec 15 02:40:29 2020  29 li  1  'main.c'
+
+               set_address main [0x800'0040]
+               set_column 1
+               advance_line 2
+               special(0x0, 4)
+    0x800'0040 [7:1]
+               set_column 18
+               special(0x2, 1)
+    0x800'0042 [8:18]
+               set_column 5
+               special(0x4, 3)
+    0x800'0046 [11:5]
+               special(0xa, 4)
+    0x800'0050 [15:5]
+               special(0xc, 3)
+    0x800'005c [18:5]
+               special(0x8, 2)
+    0x800'0064 [20:5]
+               set_column 9
+               special(0x0, 1)
+    0x800'0064 [21:9]
+               special(0x4, 2)
+    0x800'0068 [23:9]
+               special(0xa, 2)
+    0x800'0072 [25:9]
+               set_column 13
+               special(0x8, 1)
+    0x800'007a [26:13]
+               advance_pc 0x16
+               end_sequence
+    0x800'0090
+
+
+-------------------------------------------------------------------------------
+Section #12 .debug_loc:
+
+   0x0 0x0 -  0x2: [breg13 0]
+       0x2 - 0x50: [breg13 4]
+       End
+  0x20 0x6 - 0x50: [fbreg -4]
+       End
+
+
+-------------------------------------------------------------------------------
+Section #13 .debug_macinfo:
+
+  0x0:
+    Include file 13 at line 0
+      Include file 14 at line 1
+        Include file 4 at line 165
+          Include file 10 at line 34
+            Include file 11 at line 10
+            End include
+            Include file 12 at line 11
+              Include file 7 at line 42
+                Include file 6 at line 39
+                End include
+                Include file 8 at line 50
+                End include
+              End include
+            End include
+          End include
+          Include file 3 at line 63
+          End include
+          Include file 1 at line 162
+            Include file 2 at line 55
+              Include file 9 at line 260
+              End include
+            End include
+          End include
+          Include file 5 at line 1949
+          End include
+        End include
+        Include file 15 at line 166
+        End include
+      End include
+    End include
+
+
+-------------------------------------------------------------------------------
+Section #14 .debug_pubnames:
+
+  0x0: 23 bytes, version 2, for unit at 0x8c, size 201
+
+    Offset Name
+    ------ ----
+      0x8d main
+
+
+-------------------------------------------------------------------------------
+Section #15 .iar.debug_line:
+
+  0x0: 104 bytes, version 1
+    1 function
+      N0001:  ref  0x119
+    0 types
+    t_org main [0x800'0040]
+    t_statement_info COMMON
+      id = 0, version = 1, code factor = 2, line base = 0,
+      line range = 5, start col base = -8, start col range = 17,
+      end col base = -20, end col range = 41, opcode base = 14
+    t_statement_info DATA
+      code factor 2, total bytes 80
+      fun N0001 PRIMARY o0 [6:1-26:28]
+          set_step_kind 3
+          set_extra_lines 1
+          advance_line 23895
+          Special(pc 0, line 4, scol 1, ecol 1)
+        0 @0x0 Func begin([6:1-7:1])
+          advance_start_col 9
+          advance_end_col 14
+          Special(pc 2, line 2, scol 8, ecol 20)
+        1 @0x2 Statement([8:18-35])
+          advance_start_col -5
+          Special(pc 4, line 3, scol -8, ecol 5)
+        2 @0x6 Statement([11:5-40])
+          Special(pc 10, line 4, scol 0, ecol -1)
+        3 @0x10 Statement([15:5-39])
+          Special(pc 12, line 3, scol 0, ecol 1)
+        4 @0x1c Statement([18:5-40])
+          advance_end_col -8
+          Special(pc 8, line 2, scol 0, ecol -20)
+        5 @0x24 Statement([20:5-12])
+          Special(pc 0, line 1, scol 4, ecol 14)
+        6 @0x24 Statement([21:9-26])
+          Special(pc 4, line 2, scol 0, ecol 9)
+        7 @0x28 Statement([23:9-35])
+          add_reachable 5
+          Special(pc 10, line 2, scol 0, ecol 1)
+        8 @0x32 Statement([25:9-36])
+          clear_reachable
+          add_reachable 8
+          Special(pc 8, line 1, scol 4, ecol -8)
+        9 @0x3a Statement([26:13-28])
+
+
+-------------------------------------------------------------------------------
+Section #16 .comment:
+
+  IAR ELF Linker V8.40.1.212/W32 for ARM
+  -f C:\Users\navde\AppData\Local\Temp\EWB079.tmp (C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Obj\main.o --no_out_extension -o C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Exe\blinkLEDVector.out --map C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\List\blinkLEDVector.map --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\config\linker\ST\stm32l475xG.icf" --semihosting --entry __iar_program_start --vfe --text_out locale)
+
+  Input comments:
+
+  C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Obj\main.o:
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  -f C:\Users\navde\AppData\Local\Temp\EWAF40.tmp (C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\main.c -o C:\UW_GitRepo\embsys310\assignment07\blinkLEDVector\Debug\Obj --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=None --dlib_config "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c\DLib_Config_Normal.h" -On -I "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\Core\Include\" -I "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\DSP\Include\")
+
+  cstartup_M.o(rt7M_tl.a):
+
+  IAR Assembler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 -D_SYSTEM_BUILD -D__NO_INEXACT__ -D__OPT_MEDIUM__ -D__THUMB_LIBRARY__ -I../../arm/src/lib/include -S -ws ../../arm/src/lib/thumb/cstartup_M.s -o rt7M_tl/cstartup_M.o
+
+  cmain.o(rt7M_tl.a):
+
+  IAR Assembler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 -D_SYSTEM_BUILD -D__NO_INEXACT__ -D__OPT_MEDIUM__ -D__THUMB_LIBRARY__ -I../../arm/src/lib/include -S -ws ../../arm/src/lib/thumb/cmain.s -o rt7M_tl/cmain.o
+
+  vector_table_M.o(rt7M_tl.a):
+
+  IAR Assembler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 -D_SYSTEM_BUILD -D__NO_INEXACT__ -D__OPT_MEDIUM__ -D__THUMB_LIBRARY__ -I../../arm/src/lib/include -S -ws ../../arm/src/lib/thumb/vector_table_M.s -o rt7M_tl/vector_table_M.o
+
+  low_level_init.o(dl7M_tln.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 --dlib_config=normal --require_prototypes --ropi --silent --strict_ansi --vfpcc_compatible --warnings_are_errors -D_SYSTEM_BUILD -Oh ../../arm/src/lib/runtime/low_level_init.c -o dl7M_tln/low_level_init.o
+
+  exit.o(dl7M_tln.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 --dlib_config=normal --require_prototypes --ropi --silent --strict_ansi --vfpcc_compatible --warnings_are_errors -D_SYSTEM_BUILD -Oh ../../arm/src/lib/runtime/exit.c -o dl7M_tln/exit.o
+
+  cexit.o(rt7M_tl.a):
+
+  IAR Assembler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 -D_SYSTEM_BUILD -D__NO_INEXACT__ -D__OPT_MEDIUM__ -D__THUMB_LIBRARY__ -I../../arm/src/lib/include -S -ws ../../arm/src/lib/thumb/cexit.s -o rt7M_tl/cexit.o
+
+  exit.o(shb_l.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M0 --require_prototypes --silent --strict_ansi --thumb --warnings_are_errors -D_SYSTEM_BUILD -I../../arm/src/lib -I../../arm/src/lib/dlib -Oh ../../arm/src/lib/semihosting/exit.c -o shb_l/exit.o
+
+  zero_init3.o(rt7M_tl.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 --dlib_config=DLib_Config_Agnostic.h --require_prototypes --ropi --rwpi_compatible --silent --strict_ansi --warnings_are_errors -D_SYSTEM_BUILD -I../../arm/src/lib/dlib -Oh ../../arm/src/lib/init/zero_init3.c -o rt7M_tl/zero_init3.o
+
+  copy_init3.o(rt7M_tl.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 --dlib_config=DLib_Config_Agnostic.h --require_prototypes --ropi --rwpi_compatible --silent --strict_ansi --warnings_are_errors -D_SYSTEM_BUILD -I../../arm/src/lib/dlib -Oh ../../arm/src/lib/init/copy_init3.c -o rt7M_tl/copy_init3.o
+
+  rle_init_single.o(rt7M_tl.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 --dlib_config=DLib_Config_Agnostic.h --require_prototypes --ropi --rwpi_compatible --silent --strict_ansi --warnings_are_errors -D_SYSTEM_BUILD -I../../arm/src/lib/dlib -Oh ../../arm/src/lib/init/rle_init_single.c -o rt7M_tl/rle_init_single.o
+
+  rle_init.o(rt7M_tl.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 --dlib_config=DLib_Config_Agnostic.h --require_prototypes --ropi --rwpi_compatible --silent --strict_ansi --warnings_are_errors -D_SYSTEM_BUILD -I../../arm/src/lib/dlib -Oh ../../arm/src/lib/init/rle_init.c -o rt7M_tl/rle_init.o
+
+  packbits_init_single.o(rt7M_tl.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 --dlib_config=DLib_Config_Agnostic.h --require_prototypes --ropi --rwpi_compatible --silent --strict_ansi --warnings_are_errors -D_SYSTEM_BUILD -I../../arm/src/lib/dlib -Oh ../../arm/src/lib/init/packbits_init_single.c -o rt7M_tl/packbits_init_single.o
+
+  packbits_init.o(rt7M_tl.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 --dlib_config=DLib_Config_Agnostic.h --require_prototypes --ropi --rwpi_compatible --silent --strict_ansi --warnings_are_errors -D_SYSTEM_BUILD -I../../arm/src/lib/dlib -Oh ../../arm/src/lib/init/packbits_init.c -o rt7M_tl/packbits_init.o
+
+  lz77_init_single.o(rt7M_tl.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 --dlib_config=DLib_Config_Agnostic.h --require_prototypes --ropi --rwpi_compatible --silent --strict_ansi --warnings_are_errors -D_SYSTEM_BUILD -I../../arm/src/lib/dlib -Oh ../../arm/src/lib/init/lz77_init_single.c -o rt7M_tl/lz77_init_single.o
+
+  lz77_init.o(rt7M_tl.a):
+
+  IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM
+  --cpu Cortex-M3 --dlib_config=DLib_Config_Agnostic.h --require_prototypes --ropi --rwpi_compatible --silent --strict_ansi --warnings_are_errors -D_SYSTEM_BUILD -I../../arm/src/lib/dlib -Oh ../../arm/src/lib/init/lz77_init.c -o rt7M_tl/lz77_init.o
+
+
+
+-------------------------------------------------------------------------------
+Section #17 .iar.rtmodel:
+
+  CppFlavor       = *
+  __SystemLibrary = DLib
+  __dlib_version  = 6
+
+
+-------------------------------------------------------------------------------
+Section #18 .ARM.attributes:
+
+  Vendor: aeabi
+    Tag_conformance          "2.10"
+    Tag_CPU_arch             ARM v7E-M (13)
+    Tag_CPU_arch_profile     Microcontroller profile (M)
+    Tag_THUMB_ISA_use        Allows 16-bit and 32-bit Thumb instructions (2)
+    Tag_PCS_config           Bare platform (1)
+    Tag_ABI_align_needed     Depends on 8-byte alignment of 8-byte data (1)
+    Tag_ABI_align_preserved  Preserves 8-byte alignment of 8-byte data (1)
+    Tag_ABI_VFP_args         No AAPCS variant dependent functions is exported/imported (3)
+    Tag_CPU_unaligned_access Allows v6-style unaligned data accessess (1)
+    Tag_DIV_use              No use of SDIV or UDIV (1)
+
+Errors: none
+Warnings: none
