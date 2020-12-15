@@ -53,8 +53,8 @@ whileStart:
     //While loop to start comparing with defined DELAY
     CMP     R1, R0      //compare R1 and R0 values 
     BLE     whileEnd    //end while loop if R0 Greater than or equal to R1
-    //increment counter
-    SUBS    R1, R1, #1  //increment by 1
+    //decrement counter
+    SUBS    R1, R1, #1  //subtract the counter by 1
     B       whileStart  //branch back to while loop start
 whileEnd:
     
